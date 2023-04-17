@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a minimal rails app using unpoly autosubmit.
 
-Things you may want to cover:
+Dependendies: sqlite3
 
-* Ruby version
+The app was generated with:
+$ rails new ./ -AT
+$ bin/rails generate scaffold Article summary:string
 
-* System dependencies
+To install:
+$ bundle
+$ bin/rake db:migrate
+$ bin/rails server
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Navigate to 'localhost:3000' and follow the instructions.
